@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities
+{
+  .list-circle{
+    list-style-type: circle;
+  }
+
+  .list-blue-circle{
+    list-style-image: url('assets/blue_circle2.png');
+  }
+}
