@@ -11,4 +11,14 @@
   .list-blue-circle{
     list-style-image: url('assets/blue_circle2.png');
   }
+
+  .slider{
+    transition: 0.4s;
+  }
+
+  .check-box:checked + .slider {
+    transform: translateX(27px);
+  }
+
+
 }
